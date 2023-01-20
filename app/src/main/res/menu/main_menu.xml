@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ /**
+  ~  * Created by Prady on 11/07/22, 4:11 PM
+  ~  * Copyright (c) 2022 . All rights reserved.
+  ~  * Last modified 11/07/22, 3:57 PM
+  ~  */
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/zigzip"
+        android:icon="@drawable/ic_zigzag_black"
+        android:title="Cart"
+        app:showAsAction="always" />
+
+</menu>
